@@ -1,0 +1,144 @@
+html {
+    background-color: black;
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+
+.rarity {
+    background-color: #191919;
+    height: 700px;
+}
+
+.wrapper {
+    margin: 60px;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Ubuntu";
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+}
+
+.number {
+    width: 534px;
+    height: 534px;
+    margin: 16px;
+    border-radius: 5px;
+}
+
+.mint-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mint {
+    width: 550px;
+    height: 530px;
+    background-color: #333333;
+    border-radius: 10px;
+    margin: 16px;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.description {
+    font-size: 20px;
+}
+
+.free {
+    border: 1px solid #ffcd00;
+    border-radius: 10px;
+    color: #ffcd00;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    margin: 25px 15px;
+    font-weight: 500;
+}
+
+.minted {
+    display: flex;
+    border-radius: 10px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 15px;
+    margin: 15px;
+    font-family: "Montserrat";
+    background-color: #484848;
+}
+
+.mint-value {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.mint-title {
+    font-size: 20px;
+}
+
+div.amount {
+    border: 1px solid #494949;
+    border-radius: 10px;
+    padding: auto;
+    height: 56px;
+    flex-grow: 1;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px;
+}
+
+.mint-amount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 10px;
+}
+
+div.change-amount {
+    padding: 15px;
+    background-color: #4d4d4d;
+    color: #787878;
+    border-radius: 50%;
+    width: 48px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.change-amount {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 0px;
+}
+
+.mint-button {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    margin-top: 20px;
+    background-color: #ffcd00;
+    padding: 12px 16px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
